@@ -8,3 +8,4 @@ Main changes:
 
 #### #TODO
  - make Docker/singularity of fithic rather than conda
+ - Update nextflow to DSL2

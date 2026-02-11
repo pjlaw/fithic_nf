@@ -5,7 +5,9 @@ This is effectively a fork of [FitHiC2](https://github.com/ay-lab/fithic), conve
 Main changes:
  - Uses [JuicerTools](https://github.com/aidenlab/juicer/wiki/Download) to dump the interactions, and perform the normalisation
  - Modified the CombineNearbyInteraction.py script to pre-cluster neighbouring bins, vastly improving the run time for high resolution data
+ - Created a version of the pipeline that can use cool files
 
 #### #TODO
+ - make requirements file for conda environment
  - make Docker/singularity of fithic rather than conda
  - Update nextflow to DSL2
